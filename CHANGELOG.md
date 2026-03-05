@@ -1,4 +1,6 @@
 # Changelog
+## 3.14.1 - 2026-01-13
+- Add support for abort/restart/activate version endpoints.
 
 ## 3.14.1 - 2026-01-13
 - Add support for large flag when creating patches
