@@ -1,5 +1,5 @@
 # Changelog
-## 3.14.1 - 2026-01-13
+## 3.15.0 - 2026-03-05
 - Add support for abort/restart/activate version endpoints.
 
 ## 3.14.1 - 2026-01-13
