@@ -81,25 +81,3 @@ class ProjectAliasDefinition(BaseModel):
 
     task_regex: str
     variant_regex: str
-
-
-class ActivateTasksVariant(BaseModel):
-    """
-    Specification of tasks to activate for a build variant.
-
-    name: The name of the build variant.
-    tasks: List of task names to activate for this variant.
-    """
-
-    name: str
-    tasks: List[str]
-
-
-class ActivateTasksRequest(BaseModel):
-    """
-    Request to activate specific tasks for build variants in a version.
-
-    variants: List of variants with their tasks to activate.
-    """
-
-    variants: List[ActivateTasksVariant]

@@ -2,7 +2,7 @@
 
 # Shortcuts for importing.
 from evergreen.api import CachedEvergreenApi, EvergreenApi, Requester, RetryingEvergreenApi
-from evergreen.api_requests import ActivateTasksRequest, ActivateTasksVariant, IssueLinkRequest
+from evergreen.api_requests import IssueLinkRequest
 from evergreen.build import Build
 from evergreen.commitqueue import CommitQueue
 from evergreen.config import EvgAuth, OidcConfig
